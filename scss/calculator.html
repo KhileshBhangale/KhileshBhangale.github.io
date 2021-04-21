@@ -1,0 +1,50 @@
+<div id="demo" role="dialog" class="modal fade modal-dialog">
+    Calculator
+    <button type="button" data-dismiss="modal">&times;</button>
+
+    
+    <div><input type="text" style="height: 20px;" id="I" dir="rtl" disabled></div>
+    <div>
+        <div>
+        <input type="button" value="MC">
+        <input type="button" value="M+">
+        <input type="button" value="M-">
+        <input type="button" value="MR">
+        <input type="button" value="MS" >
+        </div>
+        <div>
+        <input type="button" value="C" onclick="clr()">
+        <input type="button" value="+-">
+        <input type="button" value="/" onclick="keyPressed('/')">
+        <input type="button" value="*" onclick="keyPressed('*')">
+        <input type="button" value="&#8592;" onclick="remove()">
+        </div>
+        <div>
+        <input type="button" value="7" onclick="keyPressed('7')">
+        <input type="button" value="8" onclick="keyPressed('8')">
+        <input type="button" value="9" onclick="keyPressed('9')">
+        <input type="button" value="-" onclick="keyPressed('-')">
+        <input type="button" value="%" onclick="keyPressed('/100*')">
+        </div>
+        <div>
+        <input type="button" value="4" onclick="keyPressed('4')">
+        <input type="button" value="5" onclick="keyPressed('5')">
+        <input type="button" value="6" onclick="keyPressed('6')">
+        <input type="button" value="+" onclick="keyPressed('+')">
+        <input type="button" value="&#119909;&#8315;&#185;" onclick="keyPressed('1/')">
+        </div>
+       
+        <div>
+        <input type="button" value="1" onclick="keyPressed('1')">
+        <input type="button" value="2" onclick="keyPressed('2')">
+        <input type="button" value="3" onclick="keyPressed('3')">
+        <input type="button" value="&#119909;&#8319;" onclick="keyPressed('**')">
+        <input type="button" value="&radic;" onclick="square()">
+        </div>
+        <div>
+        <input type="button" style="width: 66px;" value="0" onclick="keyPressed('0')">
+        <input type="button" value="." onclick="keyPressed('.')">
+        <input type="button" style="width: 66px;" value="=" onclick="solve()">
+        </div>
+</div> 
+</div>
